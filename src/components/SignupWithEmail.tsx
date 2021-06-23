@@ -17,7 +17,7 @@ const SignupWithEmail: React.FC<RouteComponentProps> = ({ history }) => {
   return (
     <>
       <div className='header-auth'>
-        <span>サインアップ</span>
+        <span>Sign up</span>
       </div>
       <form onSubmit={handleSubmit}>
         <div>
@@ -26,7 +26,7 @@ const SignupWithEmail: React.FC<RouteComponentProps> = ({ history }) => {
         <div>
           <input name='password' type='password' placeholder='パスワード' />
         </div>
-        <button type='submit'>サインアップ</button>
+        <button type='submit'>Sign up</button>
       </form>
     </>
   )

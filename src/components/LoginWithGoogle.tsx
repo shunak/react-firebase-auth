@@ -16,7 +16,7 @@ const LoginWithGoogle: React.FC<RouteComponentProps> = ({ history }) => {
   return (
     <>
       <button onClick={handleSubmit} className='btn-google'>
-        Googleでログイン
+        Login with Google
       </button>
     </>
   )
