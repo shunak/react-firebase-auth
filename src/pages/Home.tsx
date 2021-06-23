@@ -8,11 +8,11 @@ const Home = () => {
   return (
     <>
       <header className='header-page'>
-        <h1>Home(要ログイン)</h1>
+        <h1>Home(Need Login)</h1>
       </header>
       <div className='wrap-home'>
-        <p>{user?.email}でログインしています。</p>
-        <button onClick={logout}>ログアウト</button>
+        <p>Now login user is {user?.email}</p>
+        <button onClick={logout}>logout</button>
       </div>
     </>
   )
